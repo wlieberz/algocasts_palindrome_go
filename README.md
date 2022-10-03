@@ -35,7 +35,8 @@ Prerequisite: you should have the [Go installed](https://go.dev/doc/install).
 In order to run the **unit-tests**:
 
 ```sh
-# TODO!
+cd src/palindrome
+go test -v
 ```
 **Expected output:**
 ```sh
