@@ -40,5 +40,19 @@ go test -v
 ```
 **Expected output:**
 ```sh
-# TODO!
+=== RUN   Test_aba_is_palindrome
+--- PASS: Test_aba_is_palindrome (0.00s)
+=== RUN   Test_aba_space_before_not_palindrome
+--- PASS: Test_aba_space_before_not_palindrome (0.00s)
+=== RUN   Test_aba_space_after_not_palindrome
+--- PASS: Test_aba_space_after_not_palindrome (0.00s)
+=== RUN   Test_greetings_not_palindrome
+--- PASS: Test_greetings_not_palindrome (0.00s)
+=== RUN   Test_numeric_is_palindrome
+--- PASS: Test_numeric_is_palindrome (0.00s)
+=== RUN   Test_fish_different_casing_not_palindrome
+--- PASS: Test_fish_different_casing_not_palindrome (0.00s)
+=== RUN   Test_pennep_is_palindrome
+--- PASS: Test_pennep_is_palindrome (0.00s)
+PASS
 ```
