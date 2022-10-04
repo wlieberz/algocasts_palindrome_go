@@ -30,13 +30,17 @@ This solution is in Go.
 
 # Running Tests
 
-Prerequisite: you should have the [Go installed](https://go.dev/doc/install).
+Prerequisite: you should have [Go installed](https://go.dev/doc/install).
 
 In order to run the **unit-tests**:
 
 ```sh
 cd src/palindrome
+# Verbose output, as seen below in "Expected Output":
 go test -v
+
+# To only see failures:
+go test
 ```
 **Expected output:**
 ```sh
